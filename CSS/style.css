@@ -123,12 +123,13 @@ a {
 
 #banner .box-left h2 {
   font-size: 50px;
-  margin-top: 50px;
+  margin-top: 40px;
   color: rgb(0, 0, 0);
 }
 
 #banner .box-left p {
   color: rgb(0, 0, 0);
+  font-size: 15px;
 }
 
 #banner .box-left button {
@@ -203,7 +204,7 @@ a {
   text-align: center;
   margin-bottom: 76px;
   font-size: 32px;
-  color: #626a67;
+  color: #000000;
 }
 
 #list-products {
@@ -215,42 +216,28 @@ a {
 }
 
 #list-products .item {
-  width: 290px;
-  height: 374px;
-  background: rgb(237, 184, 109);
+  width: 2000px;
+  height: 400px;
+  background: rgb(181, 177, 173);
   border-radius: 10px;
   margin-bottom: 50px;
 }
 
-#list-products .item img {
-  display: block;
-  margin: 0px auto;
-  margin-top: 17px;
-}
-
-#list-products .item .stars {
-  display: flex;
-  margin: 0px auto;
-  width: 50%;
-}
-
 #list-products .item .name {
-  text-align: center;
-  color: #fff;
-  font-weight: bold;
-  margin-top: 21px;
+  text-align: left;
+  color: #000000;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #list-products .item .desc {
   text-align: center;
-  color: #626a67;
-}
-
-#list-products .item .price {
-  text-align: center;
-  color: #f42424;
-  font-weight: bold;
-  margin-top: 20px;
+  color: rgb(223, 13, 13);
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .list-page {
